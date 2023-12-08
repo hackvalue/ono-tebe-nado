@@ -5,30 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="/Tasks/ono-tebe-nado/styles/global.css">
-    <link rel="stylesheet" href="/Tasks/ono-tebe-nado/fonts/fonts.css">
-    <link rel="stylesheet" href="/Tasks/ono-tebe-nado/styles/style.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
-    <header class="header">
-      <nav class="header_menu">
-        <ul class="header__links-list">
-          <li class="header__links-list-item_no-bullit"><a href="#" class="header__link-active">главная</a></li>
-          <li class="header__links-list-item"><a href="#" class="header__link">посмотреть лоты</a></li>
-          <li class="header__links-list-item"><a href="#" class="header__link">об аукционе</a></li>
-      </nav>
 
-      
-      <a class="header__logo"><img class="header__logo-image" src="/Tasks/ono-tebe-nado/images/logo-black.svg"></a>   
-      
-        <address class="address">
-          <a href="tel:+99995555555">+9 999 555 5555</a>
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+    <header class="header">
+        <nav class="header_menu">
+         <ul class="header__links-list">
+           <li class="header__links-list-item_active">
+            <a class="header__link">главная</a>
+          </li>
+           <li class="header__links-list-item">
+            <a class="header__link" href="#">посмотреть лоты</a>
+          </li>
+           <li class="header__links-list-item">
+            <a class="header__link" href="#">об аукционе</a>
+          </li>
+        </ul>
+        </nav>
+         <a class="header__logo">
+            <img 
+              class="header__logo-image" 
+              src="./images/logo-black.svg"
+              alt="Логотип проекта">
+         </a>  
+        <address class="address header__address">
+          <a class="header__link" href="tel:+99995555555">+9 999 555 5555</a><br>
+          <a class="header__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
           наб. Принсенграхт 263-265,<br>
           Амстердам
         </address>
+    </header>
+
+    <main class="content">
+
+      <section class="cover">
+        <h1 class="cover__title">
+            <span class="aligned-text">
+              <span>о</span><span class="spacing-extended">но</span>
+            </span>
+            <span class="aligned-text_center">
+              <span>те</span><span class="spacing-extended">бе</span>
+            </span>
+            <span class="aligned-text_right">
+              <span class="aligned-right spacing-extended">н</span><span>ад</span><span class="no-spacing">о</span>
+            </span>
+        </h1>
+        <div class="overlay"></div>
+        <div class="cover__description">
+          <p class="cover__description-text">Аукцион    вещей,    в    которые    никто    не     верил</p>
+          <button class="bet-button">Сделать ставку</button>
+         </div>
+         
+      </section>
       
-    
-      </header>
+      
+      
+      
+
+    </main>
+
+
+
+
+
+    <lots></lots>
+
+
+
+
+
+    <about></about>
+
+
+
+
+    <footer></footer>
+
+
+
+
+
+ 
   </body>
 </html>
