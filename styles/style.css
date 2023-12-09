@@ -144,8 +144,6 @@
 
 .lots {
    padding: 180px 50px;
-   
-   
 }
 
 .lots__heading {
@@ -159,26 +157,21 @@
 
 .lots__card-list {
    display: flex;
-   justify-content: center;
+   flex-wrap: wrap;
    gap: 1.5em;
    list-style-type: none;
-   
-
 }
 
 .lots__card-list-item {
-   
-   
-   min-height: 450px;
-   
+   max-height: 100%;
+   flex-basis: 330px;
+   flex-grow: 1;
 }
 
 .card-link {
-   
    display: block;
    text-decoration: none;
    height: 100%;
-  
 }
 
 .card { 
@@ -187,17 +180,13 @@
    align-items: start;
    justify-content: space-between;
    padding: 50px 40px;
-   max-width: 430px;
-   height: 100%;
+   min-height: 450px;
    position: relative;
    z-index: -1;
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
-   
 }
-
-
 
 .card__title {
    
@@ -209,24 +198,15 @@
    text-transform: uppercase;
    text-decoration: underline 1px;
    text-underline-offset: 0.2rem;
-
-
-
 }
 
 .card__text {
-   
-
-   color: #FFF;
-   
+   color: #FFF; 
    font-size: 20px;
    font-style: normal;
    font-weight: 400;
    line-height: 1.2;
 }
-
-
-
 
 .card_type_film {
    background-image: url(../images/card-lot-01.jpg);
@@ -251,20 +231,6 @@
    text-decoration: underline 1px;
    text-underline-offset: 0.2rem;
 }
-
-
-
-
-
-/*
-
-
-
-
-
-
-
-
 
 
 /*ABOUT*/
