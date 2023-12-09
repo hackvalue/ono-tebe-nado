@@ -163,9 +163,8 @@
 }
 
 .lots__card-list-item {
-   max-height: 100%;
-   flex-basis: 330px;
-   flex-grow: 1;
+   flex-basis: 405px;
+   flex-grow: 2;  
 }
 
 .card-link {
