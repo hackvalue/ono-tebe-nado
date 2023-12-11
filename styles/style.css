@@ -136,6 +136,7 @@
    font-size: 22px;
    line-height: normal;
    border: 1px solid #FFF;
+   
    text-transform: uppercase;
    font-family: Raleway, sans-serif;
    padding: 12px 32px;
@@ -233,14 +234,12 @@
    text-underline-offset: 0.2rem;
 }
 
-
 /*ABOUT*/
 
 .about {   
    display: flex;
    gap: 25px;
    padding: 0 50px;
-   
 }
 
 .about__column {
@@ -265,8 +264,6 @@ border-radius: 50%;
    font-size: 40px;
    font-weight: 700;
    text-transform: uppercase;
-
-
 }
 
 .about__text {
@@ -275,8 +272,6 @@ border-radius: 50%;
    font-weight: 400;
    line-height: normal;
    margin-bottom: 0;
-
-   
 }
 
 
